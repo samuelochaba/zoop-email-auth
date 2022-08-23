@@ -1,0 +1,47 @@
+@import "./resets";
+@import "./variables";
+
+.email_auth_modal_content {
+  background: #ffffff;
+  border-radius: 8px;
+  width: 100%;
+  text-align: center;
+  margin: 0px auto;
+  box-sizing: border-box;
+}
+.email_auth_modal-btn-wrapper {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-top: 1.25rem;
+  p {
+    font-family: $poppins-font;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: -0.5px;
+
+    color: #000000;
+  }
+}
+.yes-btn,
+.no-btn {
+  padding: 0.313rem 2.375rem;
+  border: none;
+  border-radius: 8px;
+}
+.yes-btn {
+  background: rgba(0, 117, 243, 0.1);
+  color: #0075f3;
+  font-family: $roboto-font;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: $letter-spacing;
+  color: #0075f3;
+}
+.no-btn {
+  background: #0075f3;
+  color: white;
+}
