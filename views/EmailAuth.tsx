@@ -107,6 +107,7 @@ const EmailAuth = () => {
           inputStyle="email-auth-otp-inputs-styles"
           errorStyle="email_auth_input-error"
           hasErrored={error}
+          isInputNum={true}
         />
       </div>
       <section className="email_auth_actions_section">
